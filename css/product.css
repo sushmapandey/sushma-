@@ -1,0 +1,183 @@
+.header, .products .product-left .categories h3, .products .product-left .discount h3, .products .product-left .price h3, .products .product-left .type h3, .products .product-left .brand h3 {
+  padding: 10px 0;
+  text-transform: uppercase;
+  color: #00a0dc;
+  font-size: 1.1em;
+  font-weight: 500; }
+
+.box, .products .product-left .discount div label, .products .product-left .price div label, .products .product-left .type div label, .products .product-left .brand div label {
+  color: #555;
+  padding-left: 10px;
+  text-transform: capitalize; }
+
+.button, .products .product-right .img input:not([type="text"]) {
+  outline: none;
+  background-color: #00a0dc;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 500;
+  border: none;
+  font-weight: bold; }
+  .button:hover, .products .product-right .img input:hover:not([type="text"]) {
+    background-color: #161616; }
+
+.image-hvr, .products .product-right .img .img-hover a {
+  display: block;
+  background-color: rgba(183, 183, 183, 0.93);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  font-weight: bold; }
+
+/*----------  Animation  ----------*/
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible; }
+  to {
+    transform: translate3d(0, 0, 0); } }
+/*----------  title  ----------*/
+.title {
+  text-align: center;
+  font-size: 35.2px;
+  color: #333;
+  font-weight: bold; }
+
+/*----------  products  ----------*/
+.products {
+  display: flex;
+  flex-direction: row; }
+  .products .product-left {
+    width: 30%;
+    padding: 10px; }
+    .products .product-left .categories {
+      border-top: solid 1px #eee;
+      padding: 10px 0 5px; }
+      .products .product-left .categories h3 span {
+        margin-right: 10px;
+        font-size: 14px; }
+      .products .product-left .categories ul {
+        padding: 0;
+        text-decoration: capitalize; }
+        .products .product-left .categories ul li:hover .sub-menues, .products .product-left .categories ul li:focus .sub-menues {
+          display: block; }
+        .products .product-left .categories ul li a {
+          text-decoration: none;
+          margin: 5px 0;
+          background: #f9f9f9;
+          width: 100%;
+          padding: 10px 5px;
+          display: block;
+          color: #555; }
+        .products .product-left .categories ul li nav .sub-menues {
+          background-color: #fff;
+          display: none;
+          position: relative;
+          top: -7px;
+          left: -10px; }
+          .products .product-left .categories ul li nav .sub-menues li a {
+            text-decoration: none;
+            width: 100%;
+            color: #000;
+            padding: 2px;
+            padding-left: 10px;
+            background-color: #fff;
+            display: block;
+            text-transform: capitalize; }
+            .products .product-left .categories ul li nav .sub-menues li a:hover {
+              text-decoration: underline;
+              color: #D31616; }
+    .products .product-left .discount {
+      border-top: solid 1px #eee;
+      padding: 10px 0 5px; }
+      .products .product-left .discount h3 span {
+        margin-right: 10px;
+        font-size: 14px; }
+      .products .product-left .discount div {
+        font-size: 12.5px;
+        line-height: 30px; }
+        .products .product-left .discount div input {
+          outline: none;
+          border: solid 1px #999; }
+    .products .product-left .price {
+      border-top: solid 1px #eee;
+      padding: 10px 0 5px; }
+      .products .product-left .price h3 span {
+        margin-right: 10px;
+        font-size: 14px; }
+      .products .product-left .price div {
+        font-size: 12.5px;
+        line-height: 30px; }
+        .products .product-left .price div input {
+          outline: none;
+          border: solid 1px #999; }
+    .products .product-left .type {
+      border-top: solid 1px #eee;
+      padding: 10px 0 5px;
+      height: 200px;
+      overflow: auto; }
+      .products .product-left .type h3 span {
+        margin-right: 10px;
+        font-size: 14px; }
+      .products .product-left .type div {
+        font-size: 12.5px;
+        line-height: 30px; }
+        .products .product-left .type div input {
+          outline: none;
+          border: solid 1px #999; }
+    .products .product-left .brand {
+      border-top: solid 1px #eee;
+      padding: 10px 0 5px;
+      height: 200px;
+      overflow: auto; }
+      .products .product-left .brand h3 span {
+        margin-right: 10px;
+        font-size: 14px; }
+      .products .product-left .brand div {
+        font-size: 12.5px;
+        line-height: 30px; }
+        .products .product-left .brand div input {
+          outline: none;
+          border: solid 1px #999; }
+  .products .product-right {
+    padding: 0px 30px; }
+    .products .product-right .img {
+      overflow: hidden;
+      border: solid 1px transparent;
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      line-height: 25px;
+      position: relative; }
+      .products .product-right .img:hover {
+        border: solid 1px #ccc; }
+      .products .product-right .img:hover .img-hover {
+        display: block;
+        animation: slideInLeft .5s 1; }
+      .products .product-right .img img {
+        padding: 5px 20px; }
+      .products .product-right .img h3 {
+        color: #caccce;
+        font-size: 1.3em; }
+      .products .product-right .img h4 {
+        font-size: 0.85em;
+        color: #caccce; }
+      .products .product-right .img p strong {
+        color: #000;
+        font-weight: 600; }
+      .products .product-right .img input:not([type="submit"]) {
+        height: 30px;
+        margin: 8px 0; }
+      .products .product-right .img input:not([type="text"]) {
+        margin: 10px 0; }
+      .products .product-right .img .img-hover {
+        position: absolute;
+        top: 18%;
+        left: 20%;
+        display: none; }
+        .products .product-right .img .img-hover a i {
+          padding-right: 5px; }
+
+/*# sourceMappingURL=product.css.map */
