@@ -1,0 +1,165 @@
+/*----------  container  ----------*/
+.container{
+   margin: 50px 90px;
+ }
+.container h1{
+  margin: 0px;
+}
+/*----------  dabba  ----------*/
+.dabba{
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.dabba a{
+  color: #000;
+}
+.dabba a:hover{
+  text-decoration: underline;
+  color: #D75217;
+}
+/*----------  first-box  ----------*/
+.boxes{
+  display: flex;
+}
+.first_box>img{
+  width: 100%;
+}
+.first_box>h2{
+  margin-top: 0;
+}
+.first_box>h2>a{
+  color: #525252;
+  text-decoration: none;
+  font-size: 24px;
+}
+.first_box>h2>a:hover{
+  color: #fa558f;
+}
+.author{
+  color: #ABABAB;
+  font-size: 14px;
+}
+.author>a{
+  color: #ABABAB;
+  text-decoration: underline;
+}
+.author>a:hover{
+  color: #fa558f;
+}
+.author span{
+  color: #ff7105;
+}
+.first_box{
+  width: 80%;
+}
+.first_box p{
+  font-size: 14px;
+}
+.first_box .button{
+  border:solid 1px #fa558f;
+  background-color: #fa558f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.first_box .button:hover{
+  background-color: #C7181C;
+}
+/*----------  second-box  ----------*/
+
+.second-box{
+padding: 50px 80px 50px 50px;
+flex-grow:2;
+width: 35%;
+}
+.second-box>ul{
+color: #ff7105;
+font-size:18px; 
+}
+.second-box i{
+font-size: 12px
+}
+.second-box a{
+display: block;
+text-decoration: none;
+color: #777;
+padding: 8px 18px;
+font-size: 16px;
+border-bottom: dashed 1px #777;
+}
+.second-box a:hover{
+color: #fa558f;
+}
+.news h4{
+color: #ff7105;
+}
+.news h4{
+color: #ff7105;
+}
+.news input[type="email"]{
+  width: 100%;
+border: 1px solid #3c3a3e;
+padding: 10px;
+margin: 1em 0;
+outline: none;
+
+}
+.news input[type="submit"]{
+background: #ef8743;
+padding: 10px 15px;
+color: #fff;
+text-transform: uppercase;
+outline: none;
+-webkit-appearance: none;
+border: 0;
+font-size: 0.8em;
+cursor: pointer;
+
+}
+.news input[type="submit"]:hover{
+background: #fa558f;
+}
+/*----------  comment  ----------*/
+.comment{
+  display: flex;
+  border:solid 1px black;
+  margin: 10px 0;
+  padding: 10px 20px 10px 10px;
+}
+.fa-user{
+  border:solid 1px blue;
+  font-size: 80px;
+  padding: 20px 20px 0;
+  color: #fff;
+  background-color: #898787;
+  margin-right: 20px;
+}
+.info h5{font-size: 1em;
+color: #4e4e4b;
+margin: 0px;
+ }
+.info p{
+  color: #333333;
+font-weight: 400;
+font-size: 0.9em;
+line-height: 1.9em;
+opacity: 0.6;
+margin: 2px 0 0px 0px;
+
+}
+.info span{
+font-size: 13px;
+color: #999;
+
+}
+.reply-button{
+  border:solid 1px green;
+  background-color: #999;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+
+

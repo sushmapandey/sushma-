@@ -1,0 +1,115 @@
+/*----------  dabba  ----------*/
+.dabba{
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 50px; 
+}
+.dabba a{
+  color: #000;
+}
+.dabba a:hover{
+  text-decoration: underline;
+  color: #D75217;
+}
+/*----------  second-box-image  ----------*/
+.container{
+  margin: 50px;
+}
+.container:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.second-box-image{
+  width: 79%;
+  float: right;
+}
+.order{
+  position: absolute;
+  top:30%;
+  left: 0px;
+  animation-name:drive;
+  animation-fill-mode:forwards;
+  animation-duration:750ms;
+  padding: 10px 20px;
+  background-color: #2C2B2B;
+  margin: auto;  
+  display: none;
+}
+.order:hover{
+  border:solid 2px #FFF;
+}
+.photo:hover .order{
+  display: block;
+}
+@keyframes drive{
+  from{transform:translatex(0)}
+  to{transform:translatex(80px)}
+}
+.photo{
+  float: left;
+  margin: 0px 30px 20px 0;
+  border:solid 1px #D8D8D8;
+  color: #000;
+  position: relative;
+  
+}
+.price{
+  background-color: #E0E0E0;
+  padding: 10px 0 10px 20px;
+}
+.photo h3{
+  margin: 0;
+  font-size: 22px;
+  
+}
+.photo p{
+  font-weight: bold;
+  font-size: 26px;
+  margin: 0;
+}
+input{
+  padding: 5px;
+}
+.btn{
+  color: #FFF;
+  background-color: #EC7C2A;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.btn:hover{
+  background-color: #FE9500;
+}
+span{
+  padding: 2px 8px;
+  background-color: #fa558f;
+  color: #FFF;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+/*----------  first-image-box  ----------*/
+.first-box-image{
+  width: 250px;
+  float: left;
+  min-height: 1200px;  
+}
+.box1{
+  background-color: #464646;
+  color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.boxes a{
+  color: #8c8c8c;
+  padding: 5px 10px;
+}
+.boxes li{
+  background-color: #f5f5f5;
+  margin-bottom: 5px;
+}
+
+
